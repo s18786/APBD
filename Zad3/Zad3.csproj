@@ -47,6 +47,7 @@
         <Compile Include="Containers\PossibleProducts.cs" />
         <Compile Include="Containers\RefrigeratedContainer.cs" />
         <Compile Include="Containers\Ship.cs" />
+        <Compile Include="Exceptions\HazardException.cs" />
         <Compile Include="Exceptions\OverfillException.cs" />
         <Compile Include="Interfaces\IContainers.cs" />
         <Compile Include="Interfaces\IHazardNotifier.cs" />

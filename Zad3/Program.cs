@@ -4,12 +4,12 @@ using Zad3.Containers;
 
 namespace Zad3
 {
-    internal class Program
+    internal static class Program
     {
         public static void Main(string[] args)
         {
-            LiquidContainer liquidContainer = new LiquidContainer(24, 100, 20, 22, "KON-C-1", 220);
-            GasContainer gasContainer = new GasContainer(18, 100, 30, 22, "KON-C-2", 200, 5);
+            //LiquidContainer liquidContainer = new LiquidContainer(24, 100, 20, 22, "KON-C-1", 220);
+            //GasContainer gasContainer = new GasContainer(18, 100, 30, 22, "KON-C-2", 200, 5);
             RefrigeratedContainer container1 = new RefrigeratedContainer(PossibleProducts.FrozenPizza, 13, -30, 12,
                 100, 20, 22, "KON-C-3", 120);
             

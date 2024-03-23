@@ -22,7 +22,7 @@ namespace Zad3.Containers
 
         public void Notification(string numberOfContainer)
         {
-            throw new NotImplementedException("Hazardous event at container");
+            throw new HazardException("Hazardous event at container");
         }
 
         public override void Load(double cargoMass)

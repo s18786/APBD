@@ -43,7 +43,7 @@ namespace Zad3.Containers
 
         public void UnLoad()
         {
-            throw new NotImplementedException();
+            throw new HazardException();
         }
     }
 }
